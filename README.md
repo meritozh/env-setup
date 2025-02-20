@@ -3,7 +3,7 @@ my personal env setup
 
 ## installed tools
 - homebrew
-- fig
+- amazon-q-cli
 - raycast
 - rustup
 
@@ -14,6 +14,6 @@ my personal env setup
 [Dracula](https://draculatheme.com/)
 
 ## zsh enhancement
-1. manually install [oh-my-zsh](https://ohmyz.sh/)
-2. install plugin `zsh-autosuggestions` and `zsh-syntax-highlight`
-3. `brew install starship`
+1. install plugin `zsh-autosuggestions` and `zsh-syntax-highlight` (replaced by amazon-q-cli)
+2. `brew install starship`
+3. `setopt autocd` in .zshrc
